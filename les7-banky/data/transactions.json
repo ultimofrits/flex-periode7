@@ -1,0 +1,36 @@
+{
+    "personal bank account": [
+        {
+            "from/to":"Frits",
+            "amount": 10
+
+        }
+        ,{
+            "from/to": "klaas",
+            "amount": 100
+
+        }
+        ,{
+            "from/to": "jan",
+            "amount": -100
+        }
+        ,{
+            "from/to": "piet",
+            "amount": -20
+
+        }
+    ],
+    "company bank account": [
+        {
+    "from/to ":"company x",
+    "amount": 5021
+
+    }
+    ,{
+    "from/to": "company z",
+    "amount": -1560
+
+    }
+    
+]
+}

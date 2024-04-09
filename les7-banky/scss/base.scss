@@ -1,0 +1,15 @@
+@use "../scss/abstracts/colors";
+@use "../scss/abstracts/vars";
+
+
+
+
+body{
+    padding: map-get(vars.$vhCalc, "paddingofbody");
+    font-family: vars.$font-family;
+    background: vars.$gradient;
+    min-height: 100vh
+
+
+
+}

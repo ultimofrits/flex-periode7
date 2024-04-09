@@ -1,0 +1,16 @@
+@use "../../abstracts/colors";
+body::-webkit-scrollbar-track{
+    background: white;
+    scrollbar-width: thin;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-color: map-get(colors.$baseColors, "backgroundDark");
+    border-radius: 5rem;
+    border: 3px solid white;
+
+}
+body{
+    scrollbar-color: map-get(colors.$baseColors, "backgroundDark") map-get(colors.$baseColors, "whitecolor") ;
+
+}
