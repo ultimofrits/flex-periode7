@@ -1,0 +1,81 @@
+::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 2rem;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  width: 100%;
+  background: rgb(4, 4, 24);
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.scroll{
+  width: 50%;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 10rem;
+  overflow-y: scroll;
+}
+.scrollAccount{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  height: 40rem;
+  background-color: rgb(5, 5, 11);
+  width: max-content;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.scrollAccountimg {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+.scrollAccounttext {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+.scrollAccounttext--span {
+  display: flex;
+  gap: 0.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.scrollAccounttext--name {
+  font-size: 1.3rem;
+}
